@@ -17,4 +17,8 @@ export function divideNumbers(a: number, b: number): number {
   return a / b;
 }
 
-export default [addNumbers, subtractNumbers, multiplyNumbers, divideNumbers];
+export function addTwoNumbers(a: number, b: number): number {
+  return a + b;
+}
+
+export default [addNumbers, subtractNumbers, multiplyNumbers, divideNumbers,addTwoNumbers];
